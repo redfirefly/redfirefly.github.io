@@ -3,7 +3,9 @@ void setup() {
 }
 void draw() {
 background(243,93,238);
-float newMouseX = map(mouseX,0,width,0,100);
+float newMouseX = map(mouseX,0,width,60,90);
+float newMouseY = map(mouseY,0,width,75,125);
+println(newMouseY);
 
 stroke(255, 255, 255);
 fill(160, 220, 90);
@@ -22,15 +24,19 @@ ellipse(325, 100, 70, 70);
 
 stroke (0,0,0);
 fill(0, 0, 255);
-ellipse(newMouseX+100, 100, 20, 20);
+ellipse(newMouseX+100, newMouseY+5, 20, 20);
 
 stroke (0,0,0);
 fill(0, 0, 255);
-ellipse(newMouseX+250, 100, 20, 20);
+ellipse(newMouseX+250, newMouseY+5, 20, 20);
 
 stroke (200,0,0);
 fill(200, 0, 0);
 ellipse(250, 125, 20, 20);
+
+stroke (200,0,0);
+fill(200, 0, 0);
+rect(225, 150, 50, 5);
 
 }
 
