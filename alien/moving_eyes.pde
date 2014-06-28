@@ -5,7 +5,7 @@ void draw() {
 background(243,93,238);
 float newMouseX = map(mouseX,0,width,60,90);
 float newMouseY = map(mouseY,0,width,75,125);
-println(newMouseY);
+//println(newMouseY);
 
 stroke(255, 255, 255);
 fill(160, 220, 90);
