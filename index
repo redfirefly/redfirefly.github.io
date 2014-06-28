@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<title>My first Gray page</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+      <ul>
+        <li><a href="http://www.google.com">word to your mother</a></li>
+        <li>what, what?</li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>more here, more here</h2>
+</body>
+</html>
